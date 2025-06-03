@@ -226,8 +226,12 @@
   "strawberryInfo": "Strawberries are juicy, red fruits loved around the world. They are high in vitamin C and antioxidants.",
   "grapesInfo": "Grapes are small, round fruits used to make wine, juice, jelly, raisins and more. They are rich in nutrients and antioxidants.",
   "bananaInfo": "Bananas are a convenient source of energy and potassium. They're perfect as a snack or part of your breakfast."
-    
-    
-    
+    ,
+    "How to plantblueberry": "How to plant Blueberries",
+  "How to waterblueberry": "How to water Blueberries",
+  "Optimal temperaturesblueberry": "Optimal temperatures for Blueberries",
+  "Growth cycleblueberry": "Growth cycle of Blueberries"
+  
+
   
 }
