@@ -20,7 +20,7 @@ function BlueberryHeader({ darkMode, toggleDarkMode }) {
 
       <div className="right-header">
         <div className="fruit-emojis">
-          <a href="/" className="fruit-emoji" title="Home">🏠</a>
+          <a href="/" className="fruit-emoji" title="Home">🏠︎</a>
         </div>
 
         <button
