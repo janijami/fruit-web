@@ -1,0 +1,43 @@
+.pineapple-page-wrapper {
+    background-color: #fff8f0;
+    color: #2e2e2e;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .pineapple-page-wrapper.dark-mode {
+    background-color: #38372e;
+    color: #f0f0f0;
+  }
+  
+  .recipes-section-titlep {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f29e38;
+  }
+  
+  .nutrition-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nutrition-text {
+    flex: 1;
+    min-width: 280px;
+    text-align: left;
+  }
+  
+  .nutrition-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .nutrition-chart {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+  }
+  

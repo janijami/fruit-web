@@ -1,0 +1,225 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI Emoji', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header.light {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .header.dark {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .left-header {
+    flex: 1;
+  }
+  
+  .right-header {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding-right: 20px;
+  }
+  
+  /* Emoji fruit navigacija */
+  .fruit-emojis {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 15px;
+  }
+       
+  /* Boje za emoji u dark i light modu */
+  .header.dark .fruit-emoji {
+    color: white;
+  }
+  
+  .header.light .fruit-emoji {
+    color: black;
+  }
+  
+  .fruit-emoji {
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Android Emoji", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .fruit-emoji:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Hamburger stilovi */
+  .dark-mode-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: inherit;
+    outline: none;
+    transition: color 0.3s ease;
+  }
+  
+  .hamburger {
+    width: 30px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    background: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    z-index: 1100;
+  }
+  
+  .hamburger span {
+    display: block;
+    height: 4px;
+    background-color: currentColor;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger.dark span {
+    background-color: white;
+  }
+  
+  .hamburger.open span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.open span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+  
+  /* Navigacijski meni */
+  .nav-menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: none;
+    min-width: 150px;
+    max-width: 90vw;
+    text-align: right;
+    z-index: 1050;
+  }
+  
+  .nav-menu.show {
+    display: block;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin: 10px 0;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-menu a:hover {
+    color: #fcd34d;
+  }
+  
+  .app-wrapper.light-mode .nav-menu {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .app-wrapper.light-mode .nav-menu a {
+    color: black;
+  }
+  
+  .nav-menu.light {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .nav-menu.light a {
+    color: #000;
+  }
+  
+  .nav-menu.dark {
+    background-color: rgba(25, 25, 25, 0.85);
+  }
+  
+  .nav-menu.dark a {
+    color: #fff;
+  }
+  .language-toggle {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .language-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .lang-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid currentColor;
+    color: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lang-button.active {
+    background-color: currentColor;
+    color: white;
+  }
+  .language-buttons {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  

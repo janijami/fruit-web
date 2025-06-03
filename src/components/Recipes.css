@@ -1,0 +1,209 @@
+/* Wrapper koji omogućava horizontalno skrolanje */
+.blueberry-variant,
+.pineapple-variant,
+.strawberry-variant,
+.grape-variant,
+.banana-variant {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 0;
+  scroll-snap-type: x mandatory;
+}
+
+/* Stilovi kartica */
+.recipe-card {
+  flex: 0 0 auto;
+  width: 250px;
+  background-color: #adc6e6;
+  border-radius: 1vw;
+  box-shadow: 0 0.2vw 0.4vw rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.recipe-card:hover {
+  transform: scale(1.03);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 1vw;
+  margin-bottom: 1rem;
+}
+
+.recipe-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #1c2b5a;
+}
+
+.recipe-button {
+  background-color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-bottom: 0.5rem;
+  color: #1c2b5a;
+}
+
+.recipe-button:hover {
+  background-color: #f0f0f0;
+}
+
+.recipe-details {
+    background-color: #eef0ff;
+    padding: 0 0.8rem; /* gore/dole padding se animira */
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+    white-space: pre-wrap;
+    font-size: 0.95rem;
+    color: #1c2b5a;
+    
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+  }
+  
+  /* Kada je prikazano (recimo klasa .open) */
+  .recipe-details.open {
+    max-height: 500px; /* dovoljno visoka da primi sadržaj */
+    padding: 0.8rem;
+  }
+  
+/* Scrollbar styling (optional) */
+.blueberry-variant::-webkit-scrollbar,
+.pineapple-variant::-webkit-scrollbar,
+.strawberry-variant::-webkit-scrollbar,
+.grape-variant::-webkit-scrollbar,
+.banana-variant::-webkit-scrollbar {
+  height: 8px;
+}
+
+.blueberry-variant::-webkit-scrollbar-thumb,
+.pineapple-variant::-webkit-scrollbar-thumb,
+.strawberry-variant::-webkit-scrollbar-thumb,
+.grape-variant::-webkit-scrollbar-thumb,
+.banana-variant::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+
+.blueberry-variant::-webkit-scrollbar-track,
+.pineapple-variant::-webkit-scrollbar-track,
+.strawberry-variant::-webkit-scrollbar-track,
+.grape-variant::-webkit-scrollbar-track,
+.banana-variant::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+/* Fade animacija */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Variant overrides (već postoje) */
+.pineapple-variant .pineapple-card {
+  background-color: #fff3d4;
+}
+
+.pineapple-card h3 {
+  color: #4a3b00;
+}
+
+.pineapple-button {
+  background-color: #fff7b3;
+  color: #4a3b00;
+}
+
+.pineapple-button:hover {
+  background-color: #ffe74d;
+}
+
+.pineapple-details {
+  background-color: #fffbea;
+  color: #4a3b00;
+}
+
+/* --- Strawberry variant styles --- */
+.strawberry-variant .strawberry-card {
+  background-color: #fb9da5;
+}
+
+.strawberry-card h3 {
+  color: #c2005e;
+}
+
+.strawberry-button {
+  background-color: #ffd6e8;
+  color: #c2005e;
+}
+
+.strawberry-button:hover {
+  background-color: #ffa1b2;
+}
+
+.strawberry-details {
+  background-color: #ffdadc;
+  color: #7b1e32;
+}
+
+/* --- Grape variant styles --- */
+.grape-variant .grape-card {
+  background-color: #b9e4c9;
+}
+
+.grape-card h3 {
+  color: #22543d;
+}
+
+.grape-button {
+  background-color: #d3f1dd;
+  color: #22543d;
+}
+
+.grape-button:hover {
+  background-color: #a8e6b2;
+}
+
+.grape-details {
+  background-color: #e0f5e9;
+  color: #22543d;
+}
+
+/* --- Banana variant styles --- */
+.banana-variant .banana-card {
+  background-color: #fff1a8;
+}
+
+.banana-card h3 {
+  color: #7d6c00;
+}
+
+.banana-button {
+  background-color: #fff9c2;
+  color: #7d6c00;
+}
+
+.banana-button:hover {
+  background-color: #fff77a;
+}
+
+.banana-details {
+  background-color: #fffde5;
+  color: #7d6c00;
+}

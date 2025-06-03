@@ -1,0 +1,46 @@
+.banana-page-wrapper {
+    background-color: #fffdf2;
+    color: #3e3e00;
+  }
+  
+  /* Stilovi za variantu banane u Recipes komponenti */
+  .banana-variant .banana-card {
+    background-color: #fff4b3;
+  }
+  
+  .banana-card h3 {
+    color: #7a6200;
+  }
+  
+  .banana-button {
+    background-color: #fffacd;
+    color: #7a6200;
+  }
+  
+  .banana-button:hover {
+    background-color: #ffe66d;
+  }
+  
+  .banana-details {
+    background-color: #fffde1;
+    color: #574c00;
+  }
+  
+  /* Naslov sekcije s receptima */
+  .recipes-section-titleb {
+    
+    font-size: 2rem;
+    color: #7a6200;
+    margin-bottom: 2rem;
+  }
+  
+  /* Light/Dark mode (ako koristiš klasu za pozadinu) */
+  .light-mode {
+    background-color: #fffdf2;
+  }
+  
+  .dark-mode {
+    background-color: #1e1e1e;
+    color: #f5f5dc;
+  }
+  

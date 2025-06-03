@@ -1,0 +1,24 @@
+.grapes-page-wrapper {
+    background-color: #ddf8e1 !important;
+    color: #2e5b32;
+    font-family: "Segoe UI", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .grapes-page-wrapper.dark-mode {
+    background-color: #1a2e1c !important;
+    color: #dee0de;
+  }
+  
+  .recipes-section-titleg {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3e8a3e !important;
+  }
+  
+  .dark-mode .recipes-section-titleg {
+    color: #cce5cc !important;
+  }
+  
+ 

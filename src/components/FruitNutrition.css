@@ -1,0 +1,103 @@
+.nutrition-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 40px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nutrition-text {
+    flex: 1;
+    min-width: 280px;
+    text-align: left;
+    max-width: 500px;
+  }
+  
+  .nutrition-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  .nutrition-text h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #2b3a55;
+    text-align: left;
+  }
+  
+  .nutrition-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4a4a4a;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  
+  .nutrition-chart {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Stilovi za borovnicu */
+  .nutrition-container.blueberry {
+    background-color: #e0ebf9;
+  }
+  
+  .nutrition-container.blueberry h2 {
+    color: #225577;
+  }
+  
+  /* Stilovi za ananas */
+  .nutrition-container.pineapple {
+    background-color: #fff7e6;
+  }
+  
+  .nutrition-container.pineapple h2 {
+    color: #d29400;
+  }
+  
+  /* Stilovi za jagodu */
+  .nutrition-container.strawberry {
+    background-color: #ffe6eb;
+  }
+  
+  .nutrition-container.strawberry h2 {
+    color: #d64056;
+  }
+  
+  /* Stilovi za grožđe */
+  .nutrition-container.grape {
+    background-color: #e7f6e8;
+  }
+  
+  .nutrition-container.grape h2 {
+    color: #35b139;
+  }
+  
+  /* Stilovi za bananu */
+  .nutrition-container.banana {
+    background-color: #fff8dc;
+  }
+  
+  .nutrition-container.banana h2 {
+    color: #d4a017;
+  }
+  .nutrition-text {
+    opacity: 0;
+    transform: translateY(-20px); 
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  .nutrition-text.animate-text {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+  
+  

@@ -1,0 +1,233 @@
+{
+  "Proteins": "Proteins",
+  "Vitamin C": "Vitamin C",
+  "Vitamin K": "Vitamin K",
+  "Manganese": "Manganese",
+  "Vitamin B6": "Vitamin B6",
+  "Fiber": "Fiber",
+  "Sugars": "Sugars",
+  "Water": "Water",
+  "Blueberry": "Blueberry",
+  "Pineapple": "Pineapple",
+  "Strawberry": "Strawberry",
+  "Grape": "Grape",
+  "Banana": "Banana",
+  "Nutrition of": "Nutrition of",
+  
+  "blueberryDescription": "<0>Blueberries are rich in antioxidants, vitamins C and K, and minerals. They help fight inflammation, improve memory, and support heart health.</0><1>They contain a low amount of proteins and sugars, and a high percentage of water, making them a refreshing and healthy choice.</1><2>Health Benefits</2><3>Blueberries are packed with antioxidants, especially anthocyanins, which protect the body from free radicals. They are high in fiber, low in calories, and provide important vitamins like C and K. Great for memory, heart, and immunity.</3>",
+  "pineappleDescription": "<0>Pineapple is rich in vitamin C and manganese. It aids digestion and boosts immunity.</0><1>It contains natural sugars, low fat and protein, and plenty of water, making it great for hydration.</1><2>Health Benefits</2><3>Bromelain in pineapple helps with digestion and has anti-inflammatory properties. Pineapple supports bone health and speeds up recovery.</3>",
+  "strawberryDescription": "<0>Strawberries are low in calories and rich in vitamin C, fiber, and antioxidants.</0><1>They support immune function, skin health, and digestion.</1><2>Health Benefits</2><3>Strawberries support heart health, reduce inflammation, and are packed with essential nutrients for overall wellness.</3>",
+  "grapeDescription": "<0>Grapes are rich in vitamins C and K, and antioxidants like resveratrol.</0><1>They help protect the heart, reduce inflammation, and support skin health.</1><2>Health Benefits</2><3>Regular grape consumption may help reduce the risk of heart disease and boost immunity.</3>",
+  "bananaDescription": "<0>Bananas are rich in vitamin B6, potassium, and fiber, and provide energy.</0><1>They help regulate blood pressure and support muscle function.</1><2>Health Benefits</2><3>Bananas are a great source of quick energy and aid in digestion.</3>",
+
+  "sections": {
+    "recipes": "Strawberry Recipes",
+    "growingGuide": "How to Grow Strawberries"
+  },
+  
+  "recipes": {
+    "strawberrySmoothie": {
+      "title": "Strawberry Smoothie",
+      "instructions": "1. Blend strawberries, banana, and yogurt.\n2. Add a bit of honey if desired.\n3. Serve chilled."
+    },
+    "strawberryCake": {
+      "title": "Strawberry Cake",
+      "instructions": "1. Bake the sponge cake.\n2. Add cream and strawberries on top.\n3. Chill and serve."
+    },
+    "summerSalad": {
+      "title": "Summer Salad",
+      "instructions": "1. Mix arugula, strawberries, and feta.\n2. Add balsamic vinegar.\n3. Enjoy the freshness!"
+    }
+  },
+  
+  "growing": {
+    "planting": {
+      "title": "Planting Strawberries",
+      "content": "Strawberries are planted in spring or fall. They need a sunny spot and loose, humus-rich soil."
+    },
+    "watering": {
+      "title": "Watering",
+      "content": "Water regularly, especially during flowering and fruit formation. Avoid wetting the leaves."
+    },
+    "temperature": {
+      "title": "Temperature",
+      "content": "Strawberries prefer a mild climate, ideally between 15°C and 25°C."
+    },
+    "growthTime": {
+      "title": "Growth Time",
+      "content": "It takes about 2–3 months from planting to harvest. Fruits ripen gradually."
+    }
+  },
+  
+  "details": {
+    "soilPlanting": {
+      "heading": "Soil and Planting",
+      "text": "Strawberries are planted in rows with 30–40 cm spacing. Soil should be well-drained and rich in nutrients."
+    },
+    "care": {
+      "heading": "Care",
+      "text": "Regularly remove weeds and dry leaves. Add mulch if needed to retain moisture."
+    },
+    "protection": {
+      "heading": "Protection",
+      "text": "Use nets to protect from birds and treat insects with natural remedies."
+    },
+    "harvesting": {
+      "heading": "Harvesting",
+      "text": "Strawberries are ready to harvest when fully red and fragrant. Pick carefully to avoid damaging the plant."
+    }
+  },
+  
+  "images": {
+    "growthStagesAlt": "Strawberry Growth Stages"
+  },
+  
+    "Blueberry Pie": "Blueberry Pie",
+    "Blueberry Smoothie": "Blueberry Smoothie",
+    "Blueberry Muffins": "Blueberry Muffins",
+    "How to plant": "How to plant",
+    "How to water": "How to water",
+    "Optimal temperatures": "Optimal temperatures",
+    "Growth cycle": "Growth cycle",
+    "Watering": "Watering",
+    "Growth and development": "Growth and development",
+    "Planting": "Planting",
+    "Optimal conditions": "Optimal conditions",
+    "Blueberry Recipes": "Blueberry Recipes",
+    "How to grow blueberries": "How to grow blueberries",
+    "Blueberry growth stages": "Blueberry growth stages",
+    "1. Prepare the pie dough.\n2. Add blueberries and sugar.\n3. Bake for 45 minutes at 180°C.": "1. Prepare the pie dough.\n2. Add blueberries and sugar.\n3. Bake for 45 minutes at 180°C.",
+    "1. Put blueberries, banana, and yogurt in a blender.\n2. Blend until smooth.\n3. Serve chilled.": "1. Put blueberries, banana, and yogurt in a blender.\n2. Blend until smooth.\n3. Serve chilled.",
+    "1. Mix the muffin ingredients.\n2. Add fresh blueberries.\n3. Bake for 25 minutes at 180°C.": "1. Mix the muffin ingredients.\n2. Add fresh blueberries.\n3. Bake for 25 minutes at 180°C."
+    ,
+      "Pineapple Smoothie_pineapple": "Pineapple Smoothie",
+      "1. Blend pineapple, banana, and coconut milk.\n2. Mix until smooth.\n3. Serve chilled._pineapple": "1. Blend pineapple, banana, and coconut milk.\n2. Mix until smooth.\n3. Serve chilled.",
+      
+      "Pineapple Cake_pineapple": "Pineapple Cake",
+      "1. Prepare sponge cake batter.\n2. Add pineapple pieces.\n3. Bake for 40 minutes at 180°C._pineapple": "1. Prepare sponge cake batter.\n2. Add pineapple pieces.\n3. Bake for 40 minutes at 180°C.",
+      
+      "Tropical Salad_pineapple": "Tropical Salad",
+      "1. Chop pineapple, mango, and orange.\n2. Mix with lemon juice.\n3. Chill before serving._pineapple": "1. Chop pineapple, mango, and orange.\n2. Mix with lemon juice.\n3. Chill before serving.",
+    
+      "How to Plant_pineapple": "How to Plant",
+      "Pineapple is grown from the fruit's top. Cut off the green crown and plant it in moist soil. It needs lots of sun and warmth._pineapple": "Pineapple is grown from the fruit's top. Cut off the green crown and plant it in moist soil. It needs lots of sun and warmth.",
+    
+      "How to Water_pineapple": "How to Water",
+      "Water moderately. The soil should be moist but not soggy. Water more frequently during hot months._pineapple": "Water moderately. The soil should be moist but not soggy. Water more frequently during hot months.",
+    
+      "Optimal Temperatures_pineapple": "Optimal Temperatures",
+      "Pineapple thrives at temperatures between 20°C and 30°C. It does not tolerate frost._pineapple": "Pineapple thrives at temperatures between 20°C and 30°C. It does not tolerate frost.",
+    
+      "Growth Cycle_pineapple": "Growth Cycle",
+      "Growth takes 18–24 months. After that, a flower forms, followed by a fruit that matures in 5–6 months._pineapple": "Growth takes 18–24 months. After that, a flower forms, followed by a fruit that matures in 5–6 months.",
+    
+      "Watering_pineapple": "Watering",
+      "Keep the soil slightly moist. Avoid standing water. Water into the center of the rosette._pineapple": "Keep the soil slightly moist. Avoid standing water. Water into the center of the rosette.",
+    
+      "Growth and Development_pineapple": "Growth and Development",
+      "Growth is slow – the first fruit comes after 2 years. It’s worth the wait as the plant is very resilient._pineapple": "Growth is slow – the first fruit comes after 2 years. It’s worth the wait as the plant is very resilient.",
+    
+      "Planting_pineapple": "Planting",
+      "Plant in sandy, well-draining soil. Place the pineapple top 2–3 cm deep._pineapple": "Plant in sandy, well-draining soil. Place the pineapple top 2–3 cm deep.",
+    
+      "Optimal Conditions_pineapple": "Optimal Conditions",
+      "A sunny location with at least 6 hours of direct sunlight daily. Ideal for container growing indoors._pineapple": "A sunny location with at least 6 hours of direct sunlight daily. Ideal for container growing indoors.",
+    
+      "Pineapple Recipes_pineapple": "Pineapple Recipes",
+      "How to Grow Pineapple_pineapple": "How to Grow Pineapple",
+      "Pineapple Growth Stages_pineapple": "Pineapple Growth Stages"
+    
+    ,
+    
+      "Grape and Cheese Salad_grape": "Grape and Cheese Salad",
+      "1. Wash the grapes and cut them in half.\n2. Mix with feta cheese and walnuts.\n3. Drizzle with olive oil and serve._grape": "1. Wash the grapes and cut them in half.\n2. Mix with feta cheese and walnuts.\n3. Drizzle with olive oil and serve.",
+      
+      "Homemade Grape Wine_grape": "Homemade Grape Wine",
+      "1. Harvest ripe grapes and crush them.\n2. Let them ferment for several weeks.\n3. Strain and enjoy the wine._grape": "1. Harvest ripe grapes and crush them.\n2. Let them ferment for several weeks.\n3. Strain and enjoy the wine.",
+      
+      "Baked Grapes with Cheese and Walnuts_grape": "Baked Grapes with Cheese and Walnuts",
+      "Roast grapes in the oven with a bit of honey, then add sliced cheese and walnuts on top. Serve warm._grape": "Roast grapes in the oven with a bit of honey, then add sliced cheese and walnuts on top. Serve warm.",
+      
+      "Planting Grapes_grape": "Planting Grapes",
+      "Planting grapes is best done in spring. Choose a sunny location and well-drained soil._grape": "Planting grapes is best done in spring. Choose a sunny location and well-drained soil.",
+      
+      "Watering_grape": "Watering",
+      "Grapes need regular watering, but avoid excessive moisture that can cause rot._grape": "Grapes need regular watering, but avoid excessive moisture that can cause rot.",
+      
+      "Temperature_grape": "Temperature",
+      "The optimal temperature for grape growth is between 18°C and 30°C._grape": "The optimal temperature for grape growth is between 18°C and 30°C.",
+      
+      "Growth Time_grape": "Growth Time",
+      "Grapes ripen over a period of 4 to 6 months, depending on the variety and climate._grape": "Grapes ripen over a period of 4 to 6 months, depending on the variety and climate.",
+      
+      "Soil and Planting_grape": "Soil and Planting",
+      "Grapes prefer slightly acidic to neutral soil with good drainage._grape": "Grapes prefer slightly acidic to neutral soil with good drainage.",
+      
+      "Care_grape": "Care",
+      "Regularly prune and remove damaged parts of the plant to encourage growth._grape": "Regularly prune and remove damaged parts of the plant to encourage growth.",
+      
+      "Protection_grape": "Protection",
+      "Use natural methods to protect against fungal diseases and pests._grape": "Use natural methods to protect against fungal diseases and pests.",
+      
+      "Harvesting_grape": "Harvesting",
+      "Harvesting is usually done by hand when the berries are brightly colored and sweet._grape": "Harvesting is usually done by hand when the berries are brightly colored and sweet.",
+      
+      "Grape Recipes_grape": "Grape Recipes",
+      "How to Grow Grapes_grape": "How to Grow Grapes",
+      "Grape Growth Stages_grape": "Grape Growth Stages"
+    
+    ,
+    
+      "Banana Bread_banana": "Banana Bread",
+      "1. Mash ripe bananas.\n2. Mix with flour, sugar, eggs, and baking powder.\n3. Bake in the oven at 180°C for about 45 minutes._banana": "1. Mash ripe bananas.\n2. Mix with flour, sugar, eggs, and baking powder.\n3. Bake in the oven at 180°C for about 45 minutes.",
+      
+      "Banana Smoothie_banana": "Banana Smoothie",
+      "1. Blend banana, milk, and honey.\n2. Add ice cubes and enjoy._banana": "1. Blend banana, milk, and honey.\n2. Add ice cubes and enjoy.",
+      
+      "Banana Pancakes_banana": "Banana Pancakes",
+      "1. Mash the banana and add an egg and oats.\n2. Fry small pancakes in a pan.\n3. Serve with honey or fruit._banana": "1. Mash the banana and add an egg and oats.\n2. Fry small pancakes in a pan.\n3. Serve with honey or fruit.",
+      
+      "Planting Bananas_banana": "Planting Bananas",
+      "Bananas are planted in warm climates, preferably in sunny and sheltered spots._banana": "Bananas are planted in warm climates, preferably in sunny and sheltered spots.",
+      
+      "Watering_banana": "Watering",
+      "Water regularly but ensure good drainage to prevent root rot._banana": "Water regularly but ensure good drainage to prevent root rot.",
+      
+      "Temperature_banana": "Temperature",
+      "Bananas grow best at temperatures between 26°C and 30°C._banana": "Bananas grow best at temperatures between 26°C and 30°C.",
+      
+      "Growing Time_banana": "Growing Time",
+      "It takes about 9 to 12 months from planting to harvest._banana": "It takes about 9 to 12 months from planting to harvest.",
+      
+      "Soil and Planting_banana": "Soil and Planting",
+      "Bananas thrive in rich, loose soil with plenty of organic matter. Avoid windy areas._banana": "Bananas thrive in rich, loose soil with plenty of organic matter. Avoid windy areas.",
+      
+      "Care_banana": "Care",
+      "Add fertilizer every few weeks and regularly remove dry leaves._banana": "Add fertilizer every few weeks and regularly remove dry leaves.",
+      
+      "Protection_banana": "Protection",
+      "Protect the plant from cold and ensure it is safe from pests like thrips._banana": "Protect the plant from cold and ensure it is safe from pests like thrips.",
+      
+      "Harvesting_banana": "Harvesting",
+      "Harvest when the bananas start to turn yellow. Cut the whole bunch._banana": "Harvest when the bananas start to turn yellow. Cut the whole bunch.",
+      
+      "Banana Recipes_banana": "Banana Recipes",
+      "How to Grow Bananas_banana": "How to Grow Bananas",
+      "Banana growth stages_banana": "Banana growth stages",
+    
+    "Detailed": "Detailed"
+  ,
+  
+    
+  "learnMore": "Learn More",
+
+  "blueberryInfo": "Blueberries are sweet, nutritious and wildly popular. They are low in calories and incredibly good for your health.",
+  "pineappleInfo": "Pineapples are tropical fruits that are rich in vitamins, enzymes and antioxidants. They help boost the immune system.",
+  "strawberryInfo": "Strawberries are juicy, red fruits loved around the world. They are high in vitamin C and antioxidants.",
+  "grapesInfo": "Grapes are small, round fruits used to make wine, juice, jelly, raisins and more. They are rich in nutrients and antioxidants.",
+  "bananaInfo": "Bananas are a convenient source of energy and potassium. They're perfect as a snack or part of your breakfast."
+    
+    
+    
+  
+}

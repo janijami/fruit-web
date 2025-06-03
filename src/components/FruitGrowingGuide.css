@@ -1,0 +1,225 @@
+/* Osnovni stil */
+.fruit-guide-title {
+    text-align: left;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .segments-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .segment {
+    border-radius: 12px;
+    flex: 1 1 240px;
+    min-width: 240px;
+    padding: 1.3rem 1rem 1.6rem;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.08);
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .segment-emoji {
+    font-size: 3.5rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .segment-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+  }
+  
+  .segment-content {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  
+  .details-container {
+    border-radius: 10px;
+    padding: 1.4rem 1.8rem;
+    box-shadow: inset 0 0 10px rgb(0 0 0 / 0.05);
+    margin-bottom: 2rem;
+  }
+  
+  .details-container h2 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+  
+  .detail {
+    margin-bottom: 1rem;
+  }
+  
+  .detail h4 {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  
+  .detail p {
+    line-height: 1.4;
+    font-size: 1rem;
+  }
+  
+  .growth-image-container {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .growth-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 🫐 Blueberry varijanta */
+  .fruit-guide-container.blueberry .segment {
+    background: #b5c7e5;
+  }
+  
+  .fruit-guide-container.blueberry .segment:hover {
+    background: rgb(166, 182, 224);
+  }
+  
+  .fruit-guide-container.blueberry .segment-content {
+    color: #034078;
+  }
+  
+  .fruit-guide-container.blueberry .details-container {
+    background: #b5c0e7;
+  }
+  
+  .fruit-guide-container.blueberry .details-container h2 {
+    color: #022c4a;
+  }
+  
+  .fruit-guide-container.blueberry .detail h4 {
+    color: #024f87;
+  }
+  
+  .fruit-guide-container.blueberry .detail p {
+    color: #012f54;
+  }
+  
+  /* 🍍 Pineapple varijanta */
+  .fruit-guide-container.pineapple .segment {
+    background: #f9d59b;
+  }
+  
+  .fruit-guide-container.pineapple .segment:hover {
+    background: #f5c87c;
+  }
+  
+  .fruit-guide-container.pineapple .segment-content {
+    color: #5b4305;
+  }
+  
+  .fruit-guide-container.pineapple .details-container {
+    background: #ffe3b3;
+  }
+  
+  .fruit-guide-container.pineapple .details-container h2 {
+    color: #9c6b00;
+  }
+  
+  .fruit-guide-container.pineapple .detail h4 {
+    color: #b0770a;
+  }
+  
+  .fruit-guide-container.pineapple .detail p {
+    color: #614500;
+  }
+  
+  /* 🍓 Strawberry varijanta */
+  .fruit-guide-container.strawberry .segment {
+    background: #fb9da5;
+  }
+  
+  .fruit-guide-container.strawberry .segment:hover {
+    background: #f58c97;
+  }
+  
+  .fruit-guide-container.strawberry .segment-content {
+    color: #c2005e;
+  }
+  
+  .fruit-guide-container.strawberry .details-container {
+    background: #ffd6e8;
+  }
+  
+  .fruit-guide-container.strawberry .details-container h2 {
+    color: #9b0046;
+  }
+  
+  .fruit-guide-container.strawberry .detail h4 {
+    color: #c2005e;
+  }
+  
+  .fruit-guide-container.strawberry .detail p {
+    color: #7b1e32;
+  }
+  
+  /* 🍇 Grape varijanta */ 
+  
+.fruit-guide-container.grape .segment {
+    background: #a3e0a3;
+}
+
+.fruit-guide-container.grape .segment:hover {
+    background: #79d979;
+}
+
+.fruit-guide-container.grape .segment-content {
+    color: #1f6b1f;
+}
+
+.fruit-guide-container.grape .details-container {
+    background: #c3ebc3;
+}
+
+.fruit-guide-container.grape .details-container h2 {
+    color: #3a9b3a;
+}
+
+.fruit-guide-container.grape .detail h4 {
+    color: #308030;
+}
+
+.fruit-guide-container.grape .detail p {
+    color: #1f6b1f;
+}
+  
+  /* 🍌 Banana varijanta */
+  .fruit-guide-container.banana .segment {
+    background: #fff1a8;
+  }
+  
+  .fruit-guide-container.banana .segment:hover {
+    background: #fff77a;
+  }
+  
+  .fruit-guide-container.banana .segment-content {
+    color: #7d6c00;
+  }
+  
+  .fruit-guide-container.banana .details-container {
+    background: #fff9c2;
+  }
+  
+  .fruit-guide-container.banana .details-container h2 {
+    color: #7d6c00;
+  }
+  
+  .fruit-guide-container.banana .detail h4 {
+    color: #5f5300;
+  }
+  
+  .fruit-guide-container.banana .detail p {
+    color: #4a4100;
+  }
+  

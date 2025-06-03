@@ -1,0 +1,32 @@
+.strawberry-page-wrapper {
+    background-color: #fff0f5 !important; 
+    color: #3e001f;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .strawberry-page-wrapper.dark-mode {
+    background-color: #3a1e2a !important; 
+    color: #f8d7e1; 
+  }
+  
+  
+  .recipes-section-titles {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d6336c; 
+  }
+  
+  .strawberry-page-wrapper.dark-mode .recipes-section-titles {
+    color: #f2a6bc; 
+  }
+  
+  
+  .strawberry-page-wrapper.dark-mode a {
+    color: #f7c9d9;
+  }
+  
+  .strawberry-page-wrapper.light-mode a {
+    color: #a02848;
+  }
+  
