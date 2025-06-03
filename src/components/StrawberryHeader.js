@@ -46,7 +46,7 @@ function StrawberryHeader({ darkMode, toggleDarkMode }) {
 
       <div className="right-header">
         <div className="fruit-emojis">
-          <a href="/" className="fruit-emoji" title={t("Home")}>🏠</a>
+          <a href="/" className="fruit-emoji" title={t("Home")}>🏠︎</a>
         </div>
 
         <button
